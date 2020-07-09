@@ -15,6 +15,28 @@
   font-family:'Courier New', Courier, monospace;
 }
 
+.list-links {
+  color: rgb(55, 255, 55);
+  font-family:'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: ">";
+  padding-right: 5px;
+}
+
+
 </style>
 
 <body style="background-color: black;">
@@ -22,6 +44,16 @@
   <div class="container-fluid">
     <div class="terminal-header jumbotron text-center">
       <h1>Welcome to the HoloNet!</h1>
+      <br/>
+      What would you like to do?
+    </div>
+    <div class="list-links">
+      <ul>
+        <li>Search</li>
+        <li>Go To Mail</li>
+        <li>Scan for Signals</li>
+        <li>Hack</li>
+      </ul>
     </div>
    </div>
 
